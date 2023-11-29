@@ -54,14 +54,14 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .maincss-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0;z-index:1}
 .maincss-check,.maincss-radio{width:24px;height:24px;position:relative;top:6px}
 .maincss-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
-.maincss-bar-block .maincss-dropdown-hover,.maincss-bar-block .maincss-dropdown-click{width:100%}
+.block .maincss-dropdown-hover,.maincss-bar-block .maincss-dropdown-click{width:100%}
 .maincss-bar-block .maincss-dropdown-hover .maincss-dropdown-content,.maincss-bar-block .maincss-dropdown-click .maincss-dropdown-content{min-width:100%}
 .maincss-bar-block .maincss-dropdown-hover .maincss-button,.maincss-bar-block .maincss-dropdown-click .maincss-button{width:100%;text-align:left;padding:8px 16px}
 .maincss-main,#main{transition:margin-left .4s}
 .maincss-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
 .maincss-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
 .maincss-bar{width:100%;overflow:hidden}.maincss-center .maincss-bar{display:inline-block;width:auto}
-.maincss-bar .maincss-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
+.maincss-bar .maincss-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0;font-weight: 950;}
 .maincss-bar .maincss-dropdown-hover,.maincss-bar .maincss-dropdown-click{position:static;float:left}
 .maincss-bar .maincss-button{white-space:normal}
 .maincss-bar-block .maincss-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
