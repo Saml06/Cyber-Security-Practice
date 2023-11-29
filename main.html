@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Krog Information Technology</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("imgs/bg.jpg");
+  min-height: 100%;
+}
+
+.maincss-bar .maincss-button {
+  padding: 16px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="maincss-top">
+  <div class="maincss-bar maincss-white maincss-card" id="myNavbar">
+    <a href="#home" class="maincss-bar-item maincss-button maincss-wide">Krog Information Technology</a>
+    <!-- Right-sided navbar links -->
+    <div class="maincss-right maincss-hide-small">
+      <a href="#about" class="maincss-bar-item maincss-button">About</a>
+      <a href="#team" class="maincss-bar-item maincss-button"><i class="fa fa-user"></i> Our Team</a>
+      <a href="#work" class="maincss-bar-item maincss-button"><i class="fa fa-th"></i> Products</a>
+      <a href="#pricing" class="maincss-bar-item maincss-button"><i class="fa fa-usd"></i> Services</a>
+      <a href="#contact" class="maincss-bar-item maincss-button"><i class="fa fa-envelope"></i> Contact Us</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="maincss-bar-item maincss-button maincss-right maincss-hide-large maincss-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="maincss-sidebar maincss-bar-block maincss-black maincss-card maincss-animate-left maincss-hide-medium maincss-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="maincss-bar-item maincss-button maincss-large maincss-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="maincss-bar-item maincss-button">Our Team</a>
+  <a href="#team" onclick="w3_close()" class="maincss-bar-item maincss-button">Products</a>
+  <a href="#work" onclick="w3_close()" class="maincss-bar-item maincss-button">Work Force</a>
+  <a href="#pricing" onclick="w3_close()" class="maincss-bar-item maincss-button">Services</a>
+  <a href="#contact" onclick="w3_close()" class="maincss-bar-item maincss-button">Contact Us</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 maincss-display-container maincss-grayscale-min" id="home">
+  <div class="maincss-display-left maincss-text-white" style="padding:48px">
+    <span class="maincss-jumbo maincss-hide-small">Integrating quality IT services</span><br>
+    <span class="maincss-xxlarge maincss-hide-large maincss-hide-medium"></span><br>
+    <span class="maincss-large">Don't waste time making already existing programs, purhcase our security</span>
+    <p><a href="#about" class="maincss-button maincss-white maincss-padding-large maincss-large maincss-margin-top maincss-opacity maincss-hover-opacity-off">Learn more and start today</a></p>
+  </div> 
+  <div class="maincss-display-bottomleft maincss-text-grey maincss-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official maincss-hover-opacity"></i>
+    <i class="fa fa-instagram maincss-hover-opacity"></i>
+    <i class="fa fa-snapchat maincss-hover-opacity"></i>
+    <i class="fa fa-pinterest-p maincss-hover-opacity"></i>
+    <i class="fa fa-twitter maincss-hover-opacity"></i>
+    <i class="fa fa-linkedin maincss-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="maincss-container" style="padding:128px 16px" id="about">
+  <h3 class="maincss-center">About Our Company</h3>
+  <p class="maincss-center maincss-large">Key features of our company</p>
+  <div class="maincss-row-padding maincss-center" style="margin-top:64px">
+    <div class="maincss-quarter">
+      <i class="fa fa-desktop maincss-margin-bottom maincss-jumbo maincss-center"></i>
+      <p class="maincss-large">Responsive</p>
+      <p>Quick response time with both our products and customer service</p>
+    </div>
+    <div class="maincss-quarter">
+      <i class="fa fa-heart maincss-margin-bottom maincss-jumbo"></i>
+      <p class="maincss-large">Passion</p>
+      <p>Our team is passionate and all have experience in the IT background.</p>
+    </div>
+    <div class="maincss-quarter">
+      <i class="fa fa-diamond maincss-margin-bottom maincss-jumbo"></i>
+      <p class="maincss-large">Design</p>
+      <p>Our developers make the coolest websites.</p>
+    </div>
+    <div class="maincss-quarter">
+      <i class="fa fa-cog maincss-margin-bottom maincss-jumbo"></i>
+      <p class="maincss-large">Support</p>
+      <p>Need help? Our support team will come to assist.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="maincss-container maincss-light-grey" style="padding:128px 16px">
+  <div class="maincss-row-padding">
+    <div class="maincss-col m6">
+      <h3>We know design.</h3>
+      
+      <p><a href="#work" class="maincss-button maincss-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="maincss-col m6">
+      <img class="maincss-image maincss-round-large" src="imgs/phone_buildings.jpg" alt="Buildings" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="maincss-container" style="padding:128px 16px" id="team">
+  <h3 class="maincss-center">THE TEAM</h3>
+  <p class="maincss-center maincss-large">The ones who runs this company</p>
+  <div class="maincss-row-padding maincss-grayscale" style="margin-top:64px">
+    <div class="maincss-col l3 m6 maincss-margin-bottom">
+      <div class="maincss-card">
+        <img src="imgs/david.PNG" alt="david" style="width:100%">
+        <div class="maincss-container">
+          <h3>David Martinez</h3>
+          <p class="maincss-opacity">CEO & Founder</p>
+          <p>David Martinez is our CEO, of our cybersecurity company</p>
+          <p><button class="maincss-button maincss-light-grey maincss-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="maincss-col l3 m6 maincss-margin-bottom">
+      <div class="maincss-card">
+        <img src="imgs/mongus.jpg" alt="Jane" style="width:100%">
+        <div class="maincss-container">
+          <h3>Bing Cat</h3>
+          <p class="maincss-opacity">Cyber analyst</p>
+          <p>Monitor network traffic for security incidents and events.</p>
+          <p><button class="maincss-button maincss-light-grey maincss-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="maincss-col l3 m6 maincss-margin-bottom">
+      <div class="maincss-card">
+        <img src="imgs/random.PNG" alt="Mike" style="width:100%">
+        <div class="maincss-container">
+          <h3>Makima</h3>
+          <p class="maincss-opacity">Web Designer</p>
+          <p>
+            Creating UI's and graphic interfaces with our IT solutions company
+          </p>
+          <p><button class="maincss-button maincss-light-grey maincss-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="maincss-col l3 m6 maincss-margin-bottom">
+      <div class="maincss-card">
+        <img src="imgs/mynameis.PNG" alt="Dan" style="width:100%">
+        <div class="maincss-container">
+          <h3>Dan Star</h3>
+          <p class="maincss-opacity">Information Technology</p>
+          <p>Created our solution program.</p>
+          <p><button class="maincss-button maincss-light-grey maincss-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="maincss-container maincss-row maincss-center maincss-dark-grey maincss-padding-64">
+  <div class="maincss-quarter">
+    <span class="maincss-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="maincss-quarter">
+    <span class="maincss-xxlarge">55+</span>
+    <br>Projects Done
+  </div>
+  <div class="maincss-quarter">
+    <span class="maincss-xxlarge">89+</span>
+    <br>Happy Clients
+  </div>
+  <div class="maincss-quarter">
+    <span class="maincss-xxlarge">150+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="maincss-container" style="padding:128px 16px" id="work">
+  <h3 class="maincss-center">Our Products</h3>
+  <p class="maincss-center maincss-large">What we've done for people</p>
+
+  <div class="maincss-row-padding" style="margin-top:64px">
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_mic.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="A microphone">
+    </div>
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_phone.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="A phone">
+    </div>
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_drone.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="A drone">
+    </div>
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_sound.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="Soundbox">
+    </div>
+  </div>
+
+  <div class="maincss-row-padding maincss-section">
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_tablet.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="A tablet">
+    </div>
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_camera.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="A camera">
+    </div>
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_typewriter.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="A typewriter">
+    </div>
+    <div class="maincss-col l3 m6">
+      <img src="imgs/tech_tableturner.jpg" style="width:100%" onclick="onClick(this)" class="maincss-hover-opacity" alt="A tableturner">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="maincss-modal maincss-black" onclick="this.style.display='none'">
+  <span class="maincss-button maincss-xxlarge maincss-black maincss-padding-large maincss-display-topright" title="Close Modal Image">×</span>
+  <div class="maincss-modal-content maincss-animate-zoom maincss-center maincss-transparent maincss-padding-64">
+    <img id="img01" class="maincss-image">
+    <p id="caption" class="maincss-opacity maincss-large"></p>
+  </div>
+</div>
+
+<!-- Skills Section -->
+<div class="maincss-container maincss-light-grey maincss-padding-64">
+  <div class="maincss-row-padding">
+    <div class="maincss-col m6">
+      <h3>Our Skills.</h3>
+      <p>Our software information technology company provides man digital and physical solutions in regards to computer hardware and software to help manage businesses</p>
+    </div>
+    <div class="maincss-col m6">
+      <p class="maincss-wide"><i class="fa fa-camera maincss-margin-right"></i>IT technology</p>
+      <div class="maincss-grey">
+        <div class="maincss-container maincss-dark-grey maincss-center" style="width:90%">90%</div>
+      </div>
+      <p class="maincss-wide"><i class="fa fa-desktop maincss-margin-right"></i>Web Design</p>
+      <div class="maincss-grey">
+        <div class="maincss-container maincss-dark-grey maincss-center" style="width:85%">85%</div>
+      </div>
+      <p class="maincss-wide"><i class="fa fa-photo maincss-margin-right"></i>Photoshop</p>
+      <div class="maincss-grey">
+        <div class="maincss-container maincss-dark-grey maincss-center" style="width:75%">75%</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Pricing Section -->
+<div class="maincss-container maincss-center maincss-dark-grey" style="padding:128px 16px" id="pricing">
+  <h3>PRICING</h3>
+  <p class="maincss-large">Choose a pricing plan that fits your needs.</p>
+  <div class="maincss-row-padding" style="margin-top:64px">
+    <div class="maincss-third maincss-section">
+      <ul class="maincss-ul maincss-white maincss-hover-shadow">
+        <li class="maincss-black maincss-xlarge maincss-padding-32">Basic</li>
+        <li class="maincss-padding-16"><b>10GB</b> Storage</li>
+        <li class="maincss-padding-16"><b>10</b> Emails</li>
+        <li class="maincss-padding-16"><b>10</b> Domains</li>
+        <li class="maincss-padding-16"><b>Endless</b> Support</li>
+        <li class="maincss-padding-16">
+          <h2 class="maincss-wide">$ 10</h2>
+          <span class="maincss-opacity">per month</span>
+        </li>
+        <li class="maincss-light-grey maincss-padding-24">
+          <button class="maincss-button maincss-black maincss-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    <div class="maincss-third">
+      <ul class="maincss-ul maincss-white maincss-hover-shadow">
+        <li class="maincss-red maincss-xlarge maincss-padding-48">Pro</li>
+        <li class="maincss-padding-16"><b>25GB</b> Storage</li>
+        <li class="maincss-padding-16"><b>25</b> Emails</li>
+        <li class="maincss-padding-16"><b>25</b> Domains</li>
+        <li class="maincss-padding-16"><b>Endless</b> Support</li>
+        <li class="maincss-padding-16">
+          <h2 class="maincss-wide">$ 25</h2>
+          <span class="maincss-opacity">per month</span>
+        </li>
+        <li class="maincss-light-grey maincss-padding-24">
+          <button class="maincss-button maincss-black maincss-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+    <div class="maincss-third maincss-section">
+      <ul class="maincss-ul maincss-white maincss-hover-shadow">
+        <li class="maincss-black maincss-xlarge maincss-padding-32">Premium</li>
+        <li class="maincss-padding-16"><b>50GB</b> Storage</li>
+        <li class="maincss-padding-16"><b>50</b> Emails</li>
+        <li class="maincss-padding-16"><b>50</b> Domains</li>
+        <li class="maincss-padding-16"><b>Endless</b> Support</li>
+        <li class="maincss-padding-16">
+          <h2 class="maincss-wide">$ 50</h2>
+          <span class="maincss-opacity">per month</span>
+        </li>
+        <li class="maincss-light-grey maincss-padding-24">
+          <button class="maincss-button maincss-black maincss-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="maincss-container maincss-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="maincss-center">CONTACT</h3>
+  <p class="maincss-center maincss-large">Lets get in touch. Send us a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw maincss-xxlarge maincss-margin-right"></i> Chicago, US</p>
+    <p><i class="fa fa-phone fa-fw maincss-xxlarge maincss-margin-right"></i> Phone: +00 151515</p>
+    <p><i class="fa fa-envelope fa-fw maincss-xxlarge maincss-margin-right"> </i> Email: mail@mail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="maincss-input maincss-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="maincss-input maincss-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="maincss-input maincss-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="maincss-input maincss-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="maincss-button maincss-black" type="submit">
+          <i class="fa fa-paper-plane"></i> Send Message
+        </button>
+      </p>
+    </form>
+    <!-- Image of location/map -->
+    <img src="imgs/map.jpg" class="maincss-image maincss-greyscale" style="width:100%;margin-top:48px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="maincss-center maincss-black maincss-padding-64">
+  <a href="#home" class="maincss-button maincss-light-grey"><i class="fa fa-arrow-up maincss-margin-right"></i>To the top</a>
+  <div class="maincss-xlarge maincss-section">
+    <i class="fa fa-facebook-official maincss-hover-opacity"></i>
+    <i class="fa fa-instagram maincss-hover-opacity"></i>
+    <i class="fa fa-snapchat maincss-hover-opacity"></i>
+    <i class="fa fa-pinterest-p maincss-hover-opacity"></i>
+    <i class="fa fa-twitter maincss-hover-opacity"></i>
+    <i class="fa fa-linkedin maincss-hover-opacity"></i>
+  </div>
+  <p>Powered by <a href="" title="W3.CSS" target="_blank" class="maincss-hover-text-green">Joe.Css</a></p>Joe.css</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
